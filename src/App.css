@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/094/506/large_2x/abstract-light-blue-wave-vector.jpg");
+}
+
+
+.App-header {
+  background-color: transparent;
+  height: 70px;
+  padding-top: 1%;
+}
+
+.App-title {
+  padding-top: .5%;
+  font-size: 68px;
+  color: #2bc3e3;
+}
+.message{
+  color: red;
+  font-size: 20px;
+  padding-bottom: 0%;
+}
+
+.App-intro {
+  font-size: 18px;
+  color: gray;
+  padding-top: .5%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightskyblue;
+  color: gray;
+}
+
+.score {
+  color:white;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
